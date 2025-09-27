@@ -1,0 +1,188 @@
+.career {
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0px;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 8px 0px 8px;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0px;
+}
+
+.careerSection {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 150px 24px 100px 24px;
+  overflow: hidden;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 64px;
+}
+.careerSectionTop {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+
+.careerSectionDetailHeader {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 900px;
+  overflow: visible;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0px;
+}
+.careerSectionDetailHeader p {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  color: var(--Primary_950, #222f04);
+  text-align: center;
+  line-height: 1.2;
+  font-size: 72px;
+  margin: 0;
+}
+
+.careerSectionDetailDesc {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 650px;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0px;
+}
+
+.careerSectionDetailDesc p {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  color: var(--Black_200, #707070);
+  text-align: center;
+  line-height: 1.2;
+  position: absolute;
+  margin: 0;
+
+  font-size: 18px;
+}
+
+.careerSectionDetail {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 650px;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 24px;
+}
+
+.info {
+  box-sizing: border-box;
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 24px 0px 24px 0px; */
+  overflow: visible;
+  align-content: center;
+  flex-wrap: nowrap;
+
+  border-color: #e3e3e3;
+  border-style: solid;
+  border-top-width: 0px;
+  border-bottom-width: 1px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+
+.info h5 {
+  font-size: 32px;
+  margin: 0;
+  line-height: 1.2;
+}
+.info p {
+  font-size: 18px;
+  color: #707070;
+}
+
+.careerSectionImageBox {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 1600px;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 0px;
+  aspect-ratio: 2.56 / 1;
+  border-radius: 24px;
+}
+
+.careerSectionImage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: hidden;
+  background-image: url("/work.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+}

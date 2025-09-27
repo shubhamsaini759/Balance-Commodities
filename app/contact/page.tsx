@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
+import Footer from "@/component/main/footer/Footer";
 
 const page = () => {
   return (
@@ -78,6 +79,7 @@ const page = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     </div>
   );
