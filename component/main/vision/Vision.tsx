@@ -7,8 +7,9 @@ const Vision = () => {
       <div className={styles.vision}>
         <div className={styles.visionContainer}>
           <p>
-            Our mission stays the same: advancing mobility with smart,
-            sustainable, accessible EV charging for all.
+            Optimize energy flow for a stable grid.Guided by innovative
+            strategies and technical solutions, we empower traders to negative
+            energy dynamics with finesse.
           </p>
         </div>
       </div>
@@ -21,8 +22,7 @@ const Vision = () => {
             </div>
             <div className={styles.visionCardContent}>
               <div className={styles.visionCardContentHeader}>
-                <p>Advancing Green</p>
-                <p>For Our Future</p>
+                <p>Our Mission</p>
               </div>
               <div className={styles.visionCardContentDesc}>
                 <p>
@@ -42,8 +42,7 @@ const Vision = () => {
           <div className={styles.missionCardWrapper}>
             <div className={styles.missionCardContent}>
               <div className={styles.missionCardContentHeader}>
-                <p>Innovation Fuels</p>
-                <p>Every Charge</p>
+                <p>Our Vision</p>
               </div>
               <div className={styles.missionCardContentDesc}>
                 <p>

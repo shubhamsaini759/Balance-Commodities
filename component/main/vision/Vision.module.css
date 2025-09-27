@@ -37,7 +37,7 @@
   text-align: center;
   line-height: 1.2;
 
-  font-size: 66px;
+  font-size: 44px;
 
   margin: 0;
   line-height: 1.2;
@@ -176,7 +176,7 @@
   overflow: visible;
   color: var(--Black_200, #707070);
   line-height: 1.2;
-  font-size: 18px;
+  font-size: 22px;
   margin: 0;
   line-height: 1.2;
 }

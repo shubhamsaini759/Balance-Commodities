@@ -85,7 +85,9 @@
 }
 .mainImageContent p {
   color: #e3e3e3;
-  font-size: 18px;
+  font-size: 22px;
+  margin: 0;
+  line-height: 1.2;
 }
 
 .mainSectionBg {
@@ -97,7 +99,7 @@
   overflow: hidden;
   z-index: 1;
   gap: 0px;
-  background-image: url("/work.avif");
+  background-image: url("/hero/heroOne.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -162,6 +164,7 @@
   flex-wrap: nowrap;
   gap: 0px;
   line-height: 1.2;
+  margin: 0;
 }
 .heroContainerTopHeader p {
   font-size: 72px;
@@ -170,23 +173,36 @@
 }
 
 .heroContainerTopText {
+  box-sizing: border-box;
   width: 100%;
   height: min-content;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  max-width: 650px;
+  padding: 100px 24px 100px 24px;
   overflow: hidden;
-  padding: 0px;
   align-content: center;
   flex-wrap: nowrap;
   gap: 0px;
+  margin: 0;
 }
 
-.heroContainerTopText {
-  font-size: 18px;
-  color: #707070;
+.heroContainerTopText p {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  max-width: 1400px;
+  color: var(--Primary_950, #222f04);
+  text-align: center;
+  line-height: 1.2;
+
+  font-size: 44px;
+
+  margin: 0;
+  line-height: 1.2;
 }
 
 .heroContainerImage {

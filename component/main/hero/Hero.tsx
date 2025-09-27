@@ -13,11 +13,10 @@ const Hero = () => {
               </h1>
               <h1 className={styles.mainImageContentHeaderBottom}>ENERGY</h1>
             </div>
-            <p>
-              Charge smarter and drive further with seamless, intelligent EV
-              solutions designed for modern living powering your journey toward
-              a cleaner, more connected future.
-            </p>
+            <div className={styles.mainContainerTopHeaderDesc}>
+              <p>Balance is not somthing you find.</p>
+              <p>It's somthing you create.</p>
+            </div>
           </div>
         </div>
         <div className={styles.mainSectionBg}></div>
@@ -26,14 +25,14 @@ const Hero = () => {
         <div className={styles.heroContainer}>
           <div className={styles.heroContainerTop}>
             <div className={styles.heroContainerTopHeader}>
-              <p>Empowering the Future of </p>
-              <p>Sustainable EV Charging</p>
+              <p>About US </p>
             </div>
             <div className={styles.heroContainerTopText}>
               <p>
-                We’re building more than just charging solutions we’re shaping
-                the future of clean mobility with intelligent technology, bold
-                vision, and a commitment to a greener planet.
+                Life is all about finding the right balance and we believe that
+                balance is achieved only when it is challenged.Here at Balance,
+                we trade electricity to match supply with demand.No fuss, just
+                the essentials.
               </p>
             </div>
           </div>

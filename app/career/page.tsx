@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./page.module.css";
+import Footer from "@/component/main/footer/Footer";
 
 const page = () => {
   return (
@@ -23,6 +24,11 @@ const page = () => {
         <div className={styles.careerSectionImageBox}>
           <div className={styles.careerSectionImage}></div>
         </div>
+        {/* jobs list */}
+        <div></div>
+
+        {/* footer */}
+        <Footer />
       </div>
     </div>
   );

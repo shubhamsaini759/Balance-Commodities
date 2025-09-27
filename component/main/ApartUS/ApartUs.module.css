@@ -77,19 +77,35 @@
   margin: 0;
 }
 
+.cardApart {
+  width: 100%;
+  height: min-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 0px;
+  align-content: center;
+  flex-wrap: nowrap;
+  gap: 100px;
+  padding: 100px 0;
+}
 .apartBottom {
   width: 100%;
-
+  min-height: 100vh;
   height: min-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   overflow: visible;
   padding: 0px;
   align-content: flex-end;
   flex-wrap: nowrap;
   max-width: 1400px;
+  background-color: #ffffff;
 }
 
 .apartBottomContent {
