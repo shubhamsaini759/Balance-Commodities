@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Hero from "@/component/main/hero/Hero";
 import Vision from "@/component/main/vision/Vision";
-import ApartUs from "@/component/main/ApartUS/ApartUs";
+
 import Founder from "@/component/main/founder/Founder";
 import Footer from "@/component/main/footer/Footer";
 
@@ -15,7 +15,7 @@ export default function Home() {
         {/* vision */}
         <Vision />
         {/* ApartUs */}
-        <ApartUs />
+
         {/* founder */}
         <Founder />
         {/* footer */}

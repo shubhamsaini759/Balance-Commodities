@@ -1,3 +1,7 @@
+* {
+  font-family: var(--font-orbitron), sans-serif;
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;
